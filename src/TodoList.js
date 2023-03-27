@@ -1,4 +1,6 @@
-const TodoList = ({ list, remove }) => {
+import React from "react";
+
+export const TodoList = ({ list, remove }) => {
   return (
     <>
       {list?.length > 0 ? (
@@ -27,4 +29,3 @@ const TodoList = ({ list, remove }) => {
   );
 };
 
-export default TodoList;
