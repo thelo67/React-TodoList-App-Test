@@ -22,7 +22,7 @@ export const TodoList = ({ list, remove }) => {
         </ul>
       ) : (
         <div className="empty">
-          <p>No task found</p>
+          <p>Task found</p>
         </div>
       )}
     </>
